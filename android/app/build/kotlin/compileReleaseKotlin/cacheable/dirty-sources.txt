@@ -1,0 +1,2 @@
+C:\Users\graph\Desktop\Short\MyTabApp\android\app\src\main\java\com\alphaman99\bcrfm\MainApplication.kt
+C:\Users\graph\Desktop\Short\MyTabApp\android\app\src\main\java\com\alphaman99\bcrfm\MainActivity.kt

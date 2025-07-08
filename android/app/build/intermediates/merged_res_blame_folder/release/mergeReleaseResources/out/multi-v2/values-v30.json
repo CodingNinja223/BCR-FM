@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.alphaman99.bcrfm.app-mergeReleaseResources-62:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\graph\\.gradle\\caches\\8.13\\transforms\\71badb4bebdb8dc3bdf3bb8fde0903e9\\transformed\\core-splashscreen-1.2.0-alpha02\\res\\values-v30\\values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "433"
+                    }
+                }
+            ]
+        }
+    ]
+}
