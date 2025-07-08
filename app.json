@@ -1,0 +1,80 @@
+{
+  "expo": {
+    "name": "BCR-FM",
+    "slug": "bcr-fm",
+    "version": "1.0.0",
+    "runtimeVersion": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash.png",
+    "scheme": "mytabapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_LOAD",
+      "url": "https://u.expo.dev/061b660e-0bed-457f-89e6-d0e5abfefd52"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alphaman99.bcrfm",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio", "remote-notification"],
+        "LSApplicationQueriesSchemes": ["whatsapp", "whatsapp-business"],
+        "NSMicrophoneUsageDescription": "This app requires microphone access for audio features",
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "android": {        
+      "package": "com.alphaman99.bcrfm",
+      "versionCode": 1,
+      "usesCleartextTraffic": true,
+      "permissions": [
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.WAKE_LOCK",
+        "android.permission.INTERNET",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash.png",
+        "backgroundColor": "#ffffff"
+      },
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": false,
+          "data": [
+            { "scheme": "whatsapp" },
+            { "scheme": "https", "host": "wa.me", "pathPrefix": "/" },
+            { "scheme": "https", "host": "api.whatsapp.com", "pathPrefix": "/send" }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/splash.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-av",
+        { "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone for audio features" }
+      ],
+      "expo-notifications",
+      "expo-web-browser"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "061b660e-0bed-457f-89e6-d0e5abfefd52"
+      }
+    }
+  }
+}

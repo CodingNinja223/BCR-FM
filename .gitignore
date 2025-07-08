@@ -1,0 +1,56 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native build folders and caches
+android/
+ios/
+.gradle/
+.kotlin/
+
+# Build outputs
+*.apk
+*.aab
+*.apks
+
+# Expo-generated files
+.metro-health-check*
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS system files
+.DS_Store
+
+# PEM files and keys
+*.pem
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Local environment files
+.env*
+.env*.local
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Generated files by expo-cli (do not track)
+# @generated expo-cli sync-8d4afeec25ea8a192358fae2f8e2fc766bdce4ec
+
+# VSCode settings (optional, if you want to ignore)
+.vscode/
+
+# Logs
+*.log
