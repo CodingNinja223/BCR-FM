@@ -58,7 +58,7 @@ The app provides users with live radio streaming, trending news, weather updates
 3. **Set up Firebase:**
    - Add your Firebase configuration to `firebase.ts` if not already set.
 
-4. **Start the Expo development server:**
+4. **Start the Expo development server:** / NPM EXPO START --CLEAR if you use EXPO GO AS YOUR SERVER
    ```sh
    npm start
    # or
