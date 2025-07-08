@@ -23,15 +23,13 @@ The app provides users with live radio streaming, trending news, weather updates
 - **Modern UI:** Responsive, mobile-first design with smooth navigation.
 
 ---
-
+## Getting Started
 ## Screenshots
 
-*(Add screenshots of your app here for better presentation!)*
-
----
-
-## Getting Started
-
+![Home Screen](./assets/screenshots/home.png)
+![Trending News](./assets/screenshots/trending.png)
+![Weather Tab](./assets/screenshots/weather.png)
+![ALL SCREENSHOTS](./screenshots)
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) (v18+ recommended)
